@@ -22,8 +22,11 @@ export default {
       },
       animation:{
         sliderDown:'sliderDown .6s ease-in-out',
+      },
+      backgroundImage:{
+        'silder-bg':'url("./img/coffee_gau_silder.jpg")'
       }
-    },
+    },  
   },
   plugins: [],
 }

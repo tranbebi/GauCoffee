@@ -5,7 +5,6 @@ interface Link {
   name: string;
   path: string;
 }
-
 const App: React.FC = () => {
   const links: Link[] = [
     { name: "Home", path: "/Home" },
@@ -16,7 +15,6 @@ const App: React.FC = () => {
     { name: "StyleGuide", path: "/styleGuide" },
     { name: "BeBi", path: "/BeBi" }
   ];
-
   const topMenuRef = useRef<HTMLUListElement | null>(null);
   const toggleMenuIconRef = useRef<SVGSVGElement | null>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,7 +39,7 @@ const App: React.FC = () => {
 
   return (
     <>
-      <div className='contents-wrapper font-karlar max-w-screen-2xl text-base mx-auto px-8 bg-slate-200'>
+      <div className='contents-wrapper font-karlar max-w-screen-2xl text-base mx-auto px-8'>
         <header className='p-6 mx-auto'>
           <nav className='flex flex-row justify-between relative'>
             <div className='logo basis-2/6 text-center text-xl font-semibold cursor-pointer'>
@@ -84,7 +82,18 @@ const App: React.FC = () => {
           </nav>
         </header>
         <main>
-          <div className='slider'>slider</div>
+          <div className="slider h-[530px] bg-silder-bg bg-cover  bg-no-repeat bg-bottom ">
+             <div className='w-full h-full  flex justify-center items-center bg-gray-900 bg-opacity-35'>
+                <div className='mx-16 text-white text-center'>
+                  <div className='uppercase text-sm mb-6'>Best place to buy coffee</div>
+                  <div className='font-medium text-5xl mb-6'>Gau Coffee Mugs</div>
+                  <div className=''>The most versatile furniture system ever created. Designed to fit your life, made to move and grow.</div>
+                  <div className='flex justify-center mt-5'>
+                    <div className='uppercase bg-white text-gray-900 w-max tracking-wider py-4 px-8 text-xs font-medium cursor-pointer hover:bg-opacity-95'>Explore Our Products</div>
+                  </div>
+                </div>
+             </div>
+          </div>
           <div className='story'>story</div>
           <div className='featured_mugr'>featured_mugr</div>
           <div className='more_products'>more_products</div>
@@ -92,10 +101,9 @@ const App: React.FC = () => {
           <div className='lifestyle_stories'>lifestyle_stories</div>
           <div className='subscribe-us'>subscribe-us</div>
         </main>
-        <footer>day la fro</footer>
+        <footer>Đây là foodter</footer>
       </div>
     </>
   );
 };
-
 export default App;
