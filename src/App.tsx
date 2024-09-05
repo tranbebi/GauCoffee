@@ -94,14 +94,14 @@ const App: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className='story'>
-            <div className='w-full h-full flex justify-center items-center'>
-              <div className='px-4 sm:px-32 lg:px-64 xl:px-96 py-32 text-center '>
-                <div className='text-3xl mb-6 leading-10 '>Even the all-powerful Pointing has no control about the blind texts.</div>
-                <div className='text-gray-500 leading-7 mb-6'>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</div>
-                <div><a href="" className='text-coffee-400 hover:text-coffee-600 relative after:absolute after:-bottom-2 left-0 after:left-0
+          <div className='story flex justify-center items-center'>
+
+            <div className='px-4 sm:px-32 lg:px-64 xl:px-96 py-32 text-center '>
+              <div className='text-3xl mb-6 leading-10 '>Even the all-powerful Pointing has no control about the blind texts.</div>
+              <div className='text-gray-500 leading-7 mb-6'>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</div>
+              <div><a href="" className='text-coffee-400 hover:text-coffee-600 relative after:absolute after:-bottom-2 left-0 after:left-0
                   after:bg-coffee-200 hover:after:bg-coffee-600 after:h-0.5 after:w-full after:transition-all after:ease-in-out after:duration-500 '>Read the full Story</a></div>
-              </div>
+
             </div>
           </div>
           <div className='bb-subheadline '>
@@ -109,7 +109,54 @@ const App: React.FC = () => {
             <div className='bb-subheadline-label uppercase mx-4 tracking-widest text-gray-500 font-medium text-[14px]'>Featured Mugs</div>
             <div className='bb-subheadline-deco-line '></div>
           </div>
-          <div className='featured_mugr'>featured_mugr</div>
+
+          <div className='featured_mugr w-[95%] lg:w-[65%] mx-auto mb-24'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
+              <div className='bb-product-card '>
+                <div className='h-[390px]  lg:h-[530px] bg-product-card1 bg-cover  bg-no-repeat bg-bottom '>
+                  <a href="#">
+                    <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
+                      {/* <div className='absolute w-[100px] bg-white py-2 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale</div> */}
+                      <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='text-center mt-8'>
+                  <a href="" >
+                    <div className='text-xl mb-3 hover:text-coffee-400'>
+                      Pink Premium Ceramic        
+                    </div>
+                  </a>
+                  <div >
+                    <span className='text-gray-900'>99.00$</span>
+
+                  </div>
+                </div>
+              </div>
+              <div className='bb-product-card '>
+                <div className='h-[390px]  lg:h-[530px]  bg-product-card2 bg-cover  bg-no-repeat bg-bottom '>
+                  <a href="#">
+                    <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
+                      <div className='absolute w-[120px] bg-white py-1 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale.</div>
+                      <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='text-center mt-8'>
+                  <a href="" >
+                    <div className='text-xl mb-3 hover:text-coffee-400'>
+                      Golden Designers Mug
+                    </div>
+                  </a>
+                  <div >
+                    <span className=' text-xl text-coffee-400'>25.00$</span>
+                    <span className='ml-2 text-gray-400 line-through'>50.00$</span>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className='bb-subheadline '>
             <div className='bb-subheadline-deco-line '></div>
             <div className='bb-subheadline-label uppercase mx-4 tracking-widest text-gray-500 font-medium text-[14px]'>more_products</div>
@@ -125,7 +172,7 @@ const App: React.FC = () => {
           <div className='bb-subheadline '>
             <div className='bb-subheadline-deco-line '></div>
             <div className='bb-subheadline-label uppercase mx-4 tracking-widest text-gray-500 font-medium text-[14px]'>
-            Behind the mugs, lifestyle stories</div>
+              Behind the mugs, lifestyle stories</div>
             <div className='bb-subheadline-deco-line '></div>
           </div>
           <div className='lifestyle_stories'>Behind the mugs, lifestyle stories</div>

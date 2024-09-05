@@ -23,13 +23,20 @@ export default {
         sliderDown: {
           '0%': { transform: 'translateY(-100%)' },
           '100%': { transform: 'translateY(0)' },
+        },
+        fadeIn:{
+          from:{opacty:0},
+          to:{opacty:1}
         }
       },
       animation:{
         sliderDown:'sliderDown .6s ease-in-out',
+        fadeIn:'fadeIn 0.5s ease-in-out',
       },
       backgroundImage:{
-        'silder-bg':'url("./img/coffee_gau_silder.jpg")'
+        'silder-bg':'url("./img/coffee_gau_silder.jpg")',
+        'product-card1':'url("./img/story1.jpg")',
+        'product-card2':'url("./img/story2.jpg")',
       }
     },  
   },
