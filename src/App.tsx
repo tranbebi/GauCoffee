@@ -124,7 +124,7 @@ const App: React.FC = () => {
                 <div className='text-center mt-8'>
                   <a href="" >
                     <div className='text-xl mb-3 hover:text-coffee-400'>
-                      Pink Premium Ceramic        
+                      Pink Premium Ceramic
                     </div>
                   </a>
                   <div >
@@ -162,7 +162,201 @@ const App: React.FC = () => {
             <div className='bb-subheadline-label uppercase mx-4 tracking-widest text-gray-500 font-medium text-[14px]'>more_products</div>
             <div className='bb-subheadline-deco-line '></div>
           </div>
-          <div className='more_products'>more_products</div>
+          {/* moproduct **********************************************************************************************************/}
+          <div className='more_products w-[95%] lg:w-[65%] mx-auto mb-16'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-4 gap-8'>
+              <div className='bb-product-card '>
+                <div className='h-[380px] bg-product-card1 bg-cover  bg-no-repeat bg-bottom '>
+                  <a href="#">
+                    <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
+                    <div className='absolute w-[120px] bg-white py-1 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale.</div>
+                    <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='text-center my-8'>
+                  <a href="" >
+                    <div className='text-xl mb-3 hover:text-coffee-400'>
+                      Pink Premium Ceramic
+                    </div>
+                  </a>
+                  <div >
+                    <span className='text-gray-900'>99.00$</span>
+
+                  </div>
+                </div>
+              </div>
+              <div className='bb-product-card '>
+                <div className='h-[380px] bg-product-card1 bg-cover  bg-no-repeat bg-bottom '>
+                  <a href="#">
+                    <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
+                      {/* <div className='absolute w-[100px] bg-white py-2 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale</div> */}
+                      <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='text-center my-8'>
+                  <a href="" >
+                    <div className='text-xl mb-3 hover:text-coffee-400'>
+                      Pink Premium Ceramic
+                    </div>
+                  </a>
+                  <div >
+                    <span className='text-gray-900'>99.00$</span>
+
+                  </div>
+                </div>
+              </div>
+              <div className='bb-product-card '>
+                <div className='h-[380px] bg-product-card1 bg-cover  bg-no-repeat bg-bottom '>
+                  <a href="#">
+                    <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
+                    <div className='absolute w-[120px] bg-white py-1 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale.</div>
+                    <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='text-center my-8'>
+                  <a href="" >
+                    <div className='text-xl mb-3 hover:text-coffee-400'>
+                      Pink Premium Ceramic
+                    </div>
+                  </a>
+                  <div >
+                    <span className='text-gray-900'>99.00$</span>
+
+                  </div>
+                </div>
+              </div>
+              <div className='bb-product-card '>
+                <div className='h-[380px] bg-product-card1 bg-cover  bg-no-repeat bg-bottom '>
+                  <a href="#">
+                    <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
+                      {/* <div className='absolute w-[100px] bg-white py-2 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale</div> */}
+                      <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='text-center my-8'>
+                  <a href="" >
+                    <div className='text-xl mb-3 hover:text-coffee-400'>
+                      Pink Premium Ceramic
+                    </div>
+                  </a>
+                  <div >
+                    <span className='text-gray-900'>99.00$</span>
+
+                  </div>
+                </div>
+              </div>
+              <div className='bb-product-card '>
+                <div className='h-[380px] bg-product-card1 bg-cover  bg-no-repeat bg-bottom '>
+                  <a href="#">
+                    <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
+                      {/* <div className='absolute w-[100px] bg-white py-2 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale</div> */}
+                      <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='text-center my-8'>
+                  <a href="" >
+                    <div className='text-xl mb-3 hover:text-coffee-400'>
+                      Pink Premium Ceramic
+                    </div>
+                  </a>
+                  <div >
+                    <span className='text-gray-900'>99.00$</span>
+
+                  </div>
+                </div>
+              </div>
+              <div className='bb-product-card '>
+                <div className='h-[380px] bg-product-card1 bg-cover  bg-no-repeat bg-bottom '>
+                  <a href="#">
+                    <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
+                      {/* <div className='absolute w-[100px] bg-white py-2 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale</div> */}
+                      <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='text-center my-8'>
+                  <a href="" >
+                    <div className='text-xl mb-3 hover:text-coffee-400'>
+                      Pink Premium Ceramic
+                    </div>
+                  </a>
+                  <div >
+                    <span className='text-gray-900'>99.00$</span>
+
+                  </div>
+                </div>
+              </div>
+              <div className='bb-product-card '>
+                <div className='h-[380px] bg-product-card1 bg-cover  bg-no-repeat bg-bottom '>
+                  <a href="#">
+                    <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
+                      {/* <div className='absolute w-[100px] bg-white py-2 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale</div> */}
+                      <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='text-center my-8'>
+                  <a href="" >
+                    <div className='text-xl mb-3 hover:text-coffee-400'>
+                      Pink Premium Ceramic
+                    </div>
+                  </a>
+                  <div >
+                    <span className='text-gray-900'>99.00$</span>
+
+                  </div>
+                </div>
+              </div>
+              <div className='bb-product-card '>
+                <div className='h-[380px] bg-product-card1 bg-cover  bg-no-repeat bg-bottom '>
+                  <a href="#">
+                    <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
+                      {/* <div className='absolute w-[100px] bg-white py-2 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale</div> */}
+                      <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='text-center my-8'>
+                  <a href="" >
+                    <div className='text-xl mb-3 hover:text-coffee-400'>
+                      Pink Premium Ceramic
+                    </div>
+                  </a>
+                  <div >
+                    <span className='text-gray-900'>99.00$</span>
+
+                  </div>
+                </div>
+              </div>
+              <div className='bb-product-card '>
+                <div className='h-[380px] bg-product-card1 bg-cover  bg-no-repeat bg-bottom '>
+                  <a href="#">
+                    <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
+                      {/* <div className='absolute w-[100px] bg-white py-2 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale</div> */}
+                      <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='text-center my-8'>
+                  <a href="" >
+                    <div className='text-xl mb-3 hover:text-coffee-400'>
+                      Pink Premium Ceramic
+                    </div>
+                  </a>
+                  <div >
+                    <span className='text-gray-900'>99.00$</span>
+
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
           <div className='bb-subheadline '>
             <div className='bb-subheadline-deco-line '></div>
             <div className='bb-subheadline-label uppercase mx-4 tracking-widest text-gray-500 font-medium text-[14px]'>Buy 2 mugs and get a coffee magazine free</div>
