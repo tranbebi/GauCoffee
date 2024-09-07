@@ -163,14 +163,14 @@ const App: React.FC = () => {
             <div className='bb-subheadline-deco-line '></div>
           </div>
           {/* moproduct **********************************************************************************************************/}
-          <div className='more_products w-[95%] lg:w-[65%] mx-auto mb-16'>
+          <div className='more_products w-[95%] xl:w-[65%] mx-auto mb-16'>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-4 gap-8'>
               <div className='bb-product-card '>
                 <div className='h-[380px] bg-product-card1 bg-cover  bg-no-repeat bg-bottom '>
                   <a href="#">
                     <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
-                    <div className='absolute w-[120px] bg-white py-1 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale.</div>
-                    <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
+                      <div className='absolute w-[120px] bg-white py-1 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale.</div>
+                      <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
                     </div>
                   </a>
                 </div>
@@ -211,28 +211,7 @@ const App: React.FC = () => {
                 <div className='h-[380px] bg-product-card1 bg-cover  bg-no-repeat bg-bottom '>
                   <a href="#">
                     <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
-                    <div className='absolute w-[120px] bg-white py-1 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale.</div>
-                    <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
-                    </div>
-                  </a>
-                </div>
-                <div className='text-center my-8'>
-                  <a href="" >
-                    <div className='text-xl mb-3 hover:text-coffee-400'>
-                      Pink Premium Ceramic
-                    </div>
-                  </a>
-                  <div >
-                    <span className='text-gray-900'>99.00$</span>
-
-                  </div>
-                </div>
-              </div>
-              <div className='bb-product-card '>
-                <div className='h-[380px] bg-product-card1 bg-cover  bg-no-repeat bg-bottom '>
-                  <a href="#">
-                    <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
-                      {/* <div className='absolute w-[100px] bg-white py-2 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale</div> */}
+                      <div className='absolute w-[120px] bg-white py-1 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale.</div>
                       <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
                     </div>
                   </a>
@@ -354,7 +333,28 @@ const App: React.FC = () => {
                   </div>
                 </div>
               </div>
-              
+              <div className='bb-product-card '>
+                <div className='h-[380px] bg-product-card1 bg-cover  bg-no-repeat bg-bottom '>
+                  <a href="#">
+                    <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
+                      {/* <div className='absolute w-[100px] bg-white py-2 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale</div> */}
+                      <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='text-center my-8'>
+                  <a href="" >
+                    <div className='text-xl mb-3 hover:text-coffee-400'>
+                      Pink Premium Ceramic
+                    </div>
+                  </a>
+                  <div >
+                    <span className='text-gray-900'>99.00$</span>
+
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
           <div className='bb-subheadline '>
@@ -362,15 +362,35 @@ const App: React.FC = () => {
             <div className='bb-subheadline-label uppercase mx-4 tracking-widest text-gray-500 font-medium text-[14px]'>Buy 2 mugs and get a coffee magazine free</div>
             <div className='bb-subheadline-deco-line '></div>
           </div>
-          <div className='coffee-magarine'>Buy 2 mugs and get a coffee magazine free</div>
+          <div className='coffee-magarine w-[95%] xl:w-[65%] mx-auto mb-24'>
+            <div className='flex flex-col md:flex-row justify-center items-center gap-5 '>
+              <div className='bb-magazine-img basis-1/2 flex flex-row gap-5 w-full h-full'>
+                <div className='bb-magazine-big-img h-[280px] basis-2/3  bg-[url("./img/magazine01.jpg")] bg-cover  bg-no-repeat bg-center '></div>
+                <div className='bb-magazine-small-img basis-1/3 flex flex-col gap-5'>
+                  <div className=' h-[130px] bg-[url("./img/magazine02.jpg")] bg-cover  bg-no-repeat bg-center '></div>
+                  <div className=' h-[130px] bg-[url("./img/magazine03.jpg")] bg-cover  bg-no-repeat bg-center '></div>
+                </div>
+              </div>
+              <div className='bb-magazine-post basis-1/2 pl-14 text-center md:text-left' >
+                <div className='uppercase  tracking-widest text-gray-500 font-medium text-[13px] mb-4 '>Premium Offer</div>
+                <div className=' text-3xl mb-4'>Get our Coffee Magazine</div>
+                <div className='text-gray-500 leading-7 mb-4'>The most versatile furniture system ever created. Designed to fit your life.</div>
+                <div className='bb-btn mx-auto md:mx-0 bg-gray-900 text-white w-max'>Start Shopping</div>
+              </div>
+            </div>
+
+          </div>
+              <div className='bb-pradux-card bg-[url("./img/pradux.jpg")] bg-cover bg-no-repeat bg-center h-[340px] mb-24 bg-fixed w-[100vw] relative left-[calc(-50vw+50%)]'>
+
+              </div>
           <div className='bb-subheadline '>
             <div className='bb-subheadline-deco-line '></div>
             <div className='bb-subheadline-label uppercase mx-4 tracking-widest text-gray-500 font-medium text-[14px]'>
-              Behind the mugs, lifestyle stories</div>
+              Behind the mugs</div>
             <div className='bb-subheadline-deco-line '></div>
           </div>
-          <div className='lifestyle_stories'>Behind the mugs, lifestyle stories</div>
-          <div className='subscribe-us'>subscribe-us</div>
+          <div className='lifestyle_stories h-[100px]'> lifestyle stories</div>
+
         </main>
         <footer>Đây là foodter</footer>
       </div>
