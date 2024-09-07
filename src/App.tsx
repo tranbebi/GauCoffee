@@ -380,19 +380,145 @@ const App: React.FC = () => {
             </div>
 
           </div>
-              <div className='bb-pradux-card bg-[url("./img/pradux.jpg")] bg-cover bg-no-repeat bg-center h-[340px] mb-24 bg-fixed w-[100vw] relative left-[calc(-50vw+50%)]'>
+          <div className='bb-pradux-card bg-[url("./img/pradux.jpg")] bg-cover bg-no-repeat bg-center h-[340px] mb-24 bg-fixed w-[100vw] relative left-[calc(-50vw+50%)]'>
 
-              </div>
+          </div>
           <div className='bb-subheadline '>
             <div className='bb-subheadline-deco-line '></div>
             <div className='bb-subheadline-label uppercase mx-4 tracking-widest text-gray-500 font-medium text-[14px]'>
-              Behind the mugs</div>
+              Behind the mugs, lifestyle stories</div>
             <div className='bb-subheadline-deco-line '></div>
           </div>
-          <div className='lifestyle_stories h-[100px]'> lifestyle stories</div>
+          <div className='lifestyle_stories w-[95%] xl:w-[65%] mx-auto mb-24'>
+            <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-4'>
+              <div className='bb-product-card '>
+                <div className='h-[380px] bg-[url("./img/lifestyle_stories1.jpg")] bg-cover  bg-no-repeat bg-bottom '>
+                  <a href="#">
+                    <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
+                      {/* <div className='absolute w-[100px] bg-white py-2 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale</div> */}
+                      <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='text-center my-8'>
+                  <a href="" >
+                    <div className='text-xl mb-3 text-start hover:text-coffee-400'>
+                      Health Check: why do I get a headache when I haven’t had my coffee?
+                    </div>
+                  </a>
+                  <a href="" >
+                    <div className='text-sm mb-3 text-gray-500 text-start hover:text-coffee-400'>
+                      It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                    </div>
+                  </a>
+                  <div className='flex justify-start' >
+                    <span className='text-[#777982] text-start'>October 9, 2018</span>
+                  </div>
+                </div>
+              </div>
+              <div className='bb-product-card '>
+                <div className='h-[380px] bg-[url("./img/lifestyle_stories2.jpg")] bg-cover  bg-no-repeat bg-bottom '>
+                  <a href="#">
+                    <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
+                      {/* <div className='absolute w-[100px] bg-white py-2 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale</div> */}
+                      <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='text-center my-8'>
+                  <a href="" >
+                    <div className='text-xl mb-3 text-start hover:text-coffee-400'>
+                      How long does a cup of coffee keep you awake?
+                    </div>
+                  </a>
+                  <a href="" >
+                    <div className='text-sm mb-3 text-gray-500 text-start hover:text-coffee-400'>
+                      It is a paradisematic country, in which roasted parts. Vel qui et ad voluptatem.
+                    </div>
+                  </a>
+                  <div className='flex justify-start'>
+                    <span className='text-[#777982] text-start'>October 9, 2018</span>
 
+                  </div>
+                </div>
+              </div>
+              <div className='bb-product-card '>
+                <div className='h-[380px] bg-[url("./img/lifestyle_stories3.jpg")] bg-cover  bg-no-repeat bg-bottom '>
+                  <a href="#">
+                    <div className='w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-500 relative group'>
+                      {/* <div className='absolute w-[100px] bg-white py-2 px-4 uppercase top-3 right-3 text-center font-semibold text-coffee-400'>on sale</div> */}
+                      <div className='absolute  bg-white text-gray-900 w-11/12 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn bb-btn'>Explore Mug</div>
+                    </div>
+                  </a>
+                </div>
+                <div className='text-center my-8'>
+                  <a href="" >
+                    <div className='text-xl mb-3 text-start hover:text-coffee-400'>
+                      Recent research suggests that heavy coffee drinkers may reap health benefits.
+                    </div>
+                  </a>
+                  <a href="" >
+                    <div className='text-sm mb-3 text-gray-500 text-start hover:text-coffee-400'>
+                      It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                    </div>
+                  </a>
+                  <div className='flex justify-start'>
+                    <span className='text-[#777982] text-start'>October 9, 2018</span>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className=' subscribe-us h-[530px] bg-[#1d1f2e] flex flex-col justify-center items-center md-24 '>
+            <div className=' flex justify-center items-center mb-3'>
+              <div className='w-8 h-px bg-gray-200'></div>
+              <div className='uppercase mx-4 tracking-widest text-gray-500 font-bold text-xs text-center'>sing up and get free coffee bages</div>
+              <div className='w-8 h-px bg-gray-500'>
+              </div>
+            </div>
+            <div className='text-4xl uppercase  text-white mb-4'>coffee Update</div>
+            <div className='bb-form'>
+              <div className='flex justify-center items-center gap-3'>
+                <div className='bb-form-item '>
+                  <input className='px-6 py-4 w-[350px] bg-inherit border-[1px] border-gray-500 outline-none text-white leading-5 hover:border-gray-300 duration-500 focus:border-gray-300 placeholder:uppercase placeholder:text-xs placeholder:tracking-widest placeholder:font-semibold' type="email" placeholder='bit92785@gmail.com' />
+                </div>
+                <div className='bb-form-item'>
+                  <button className='bb-btn bg-white text-gray-500' type='submit'>subscribe</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </main>
-        <footer>Đây là foodter</footer>
+        <footer className='w-[95%] xl:w-[65%] mx-auto mt-24 pb-24 '>
+          <div className=' flex justify-center gap-60'>
+            <div className=' uppercase text-gray-500 flex flex-col gap-4'>
+              <div>Home</div>
+              <div>Our Products</div>
+              <div>Contact</div>
+              <div>Styleguide</div>
+         
+            </div>
+            <div className='uppercase text-gray-500 flex flex-col gap-4'>
+              <div>Delivering the best</div>
+              <div>coffee life since 1996.</div>
+              <div>From coffee geeks to</div>
+              <div>the real ones.</div>
+              <div>Follow Us</div>
+            </div>
+            <div className='uppercase text-gray-500 flex flex-col gap-4'>
+              <div>Contac-Us</div>
+              <div>Trần bé Bi</div>
+              <div className='icon-item-footer flex justify-center gap-4 '>
+                <div><i className="fa-brands fa-discord"></i></div>
+                <div><i className="fa-brands fa-facebook"></i></div>
+                <div><i className="fa-brands fa-instagram"></i></div>
+              </div>
+            </div>
+            
+          </div>
+        </footer>
       </div>
     </>
   );
